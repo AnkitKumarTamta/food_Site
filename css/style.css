@@ -1,0 +1,180 @@
+body{
+    
+    font-family: arial,helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+.contain{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+header{
+    background: #35424a;
+    color:white;
+    padding-top: 30px;
+    min-height: 50px;
+    border-bottom: #bf55ec 3px solid;
+}
+header a{
+    color:#fff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.button{
+    height: 35px;
+    background:#bf55ec ;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+}
+
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+#aryan{
+    font-size: 22px;
+}
+header #aryan{
+    float:left;
+}
+header #aryan h1{
+    margin:0;
+}
+header nav{
+    float:right;
+}
+.highlight {
+    color:#bf55ec;
+    font-weight: bold;
+}
+.home{
+    color:#bf55ec;
+}
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+#wallsec{
+    min-height:400px;
+    background: url('../imsges/PicsArt_11-02-12.19.19.jpg') no-repeat 0 -400px;
+    text-align:center;
+    color: #fff;
+}
+#wallsec h1{
+    font-family: vardana;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom:10px;
+}
+#wallsec p{
+    font-size:15px;
+}
+#newsleter{
+    padding: 15px;
+    color: #fff;
+    background: #35424a
+}
+#newsleter h1{
+    float: left;
+}
+#newsleter form {
+    float: right;
+    margin-top: 20px;
+}
+#newsleter input[type="email"]{
+    padding: 3px;
+    height: 25px;
+    width: 250px;
+}
+#boxes{
+    margin-top:20px;
+}
+#boxes .box{
+    float:left;
+    width:30%;
+    padding:10px;
+    text-align: center;
+}
+#boxes .box img{
+    width:90px;
+    border-radius:50%; 
+}
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+article#maincol{
+    float:left;
+    width:65%;
+}
+footer{
+    padding:3px;
+    margin-top: 20px;
+    color:#fff;
+    background-color: #bf55ec;
+    text-align: center;
+}
+.dark{
+    padding:15px;
+    background: #35424a;
+    color:#fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul#services li{
+    list-style: none;
+    padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background:#e6e6e6; 
+}
+aside#sidebar .quote input,aside#sidebar .quote input textarea{
+    width:90%;
+    padding:5px;
+}
+@media(max-width:768px){
+    header #aryan,
+    header nav,
+    header nav li,
+    #newsleter h1,
+    #newsleter form,
+    #boxes .box,
+    article #maincol,
+    aside #sidebar
+    {
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #wallsec h1{
+        margin-top: 40px;
+    }
+    #newsleter button, .quote button {
+        display:block;
+        width:100%;
+    }
+    #newsleter form input[type="email"], .quote input, .quote textarea {
+        margin: 100%;
+        margin-bottom: 5px;
+    }
+    
+}
